@@ -18,7 +18,7 @@ public class Frequency
                 map.put(data, map.get(data)+1);
             }
         }
-        System.out.println(map);
+        //System.out.println(map);
         System.out.println("Frequency Of Characters excluding space");
         for(Entry<Character,Integer> data : map.entrySet())
         {
