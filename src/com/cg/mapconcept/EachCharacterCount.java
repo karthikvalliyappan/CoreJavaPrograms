@@ -1,7 +1,7 @@
-package com.cg.frequency;
+package com.cg.mapconcept;
 import java.util.*;
 import java.util.Map.*;
-public class Frequency
+public class EachCharacterCount
 {
     public static void main(String[] args)
     {
