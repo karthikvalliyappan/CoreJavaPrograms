@@ -1,6 +1,7 @@
 package com.cg.sortingwithmap;
 
 import java.util.*;
+import java.util.Map.*;
 
 public class DescendingSortByValue
 {
@@ -12,13 +13,13 @@ public class DescendingSortByValue
         map.put('a',1);
         map.put('s',2);
 
-        Set<Map.Entry<Character,Integer>> entrysetData = map.entrySet();
-        List<Map.Entry<Character,Integer>> list = new LinkedList<>(entrysetData);
-        list.sort(Collections.reverseOrder(Map.Entry.comparingByValue()));
-        //list.sort(Collections.reverseOrder(Map.Entry.comparingByKey()));
+        Set<Entry<Character,Integer>> entrysetData = map.entrySet();
+        List<Entry<Character,Integer>> list = new LinkedList<>(entrysetData);
+        list.sort(Collections.reverseOrder(Entry.comparingByValue()));
+        //list.sort(Collections.reverseOrder(Entry.comparingByKey()));
 
         Map<Character,Integer> sortedMap = new LinkedHashMap<>();
-        for(Map.Entry<Character,Integer> data : list)
+        for(Entry<Character,Integer> data : list)
         {
             sortedMap.put(data.getKey(), data.getValue());
         }

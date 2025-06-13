@@ -9,7 +9,7 @@ public class ZeroesNumber
 {
     public static void main(String[] args)
     {
-        int a[] = { 1, 2,3,0,1,4,0,3,2,0};
+        int a[] = { 1,2,3,0,1,4,0,3,2,0};
         LinkedList<Integer> list = new LinkedList<>();
         for(int num : a)
         {

@@ -5,7 +5,7 @@ public class Anagram
     public static void main(String[] args)
     {
         String s1 = "peek";
-        String s2 = "peee";
+        String s2 = "keep";
         char [] c1 = s1.toCharArray();
         char [] c2 = s2.toCharArray();
         int count = 0;
@@ -18,7 +18,7 @@ public class Anagram
                     if(c1[i]==c2[j])
                     {
                         count++;
-                        c2[j]= 0;
+                        c2[j]= '0';    // important
                         break;
                     }
                 }

@@ -1,8 +1,6 @@
 package com.cg.sortinglist;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Ascending
 {
@@ -13,6 +11,8 @@ public class Ascending
         list.add(1);
         list.add(8);
         Collections.sort(list);
+        //Collections.sort(list,Collections.reverseOrder());
         System.out.println(list);
+
     }
 }

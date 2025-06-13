@@ -26,6 +26,8 @@ public class ReverseIndividualWords
 
         System.out.println();
 
+        // another method
+
         for(Map.Entry<Integer,String > data : map.entrySet())
         {
             for(int i = data.getValue().length()-1; i>=0;i--)

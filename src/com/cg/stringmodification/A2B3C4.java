@@ -4,7 +4,8 @@ public class A2B3C4
 {
     public static void main(String[] args)
     {
-        String s = "a2b3c5";
+        String s = "a2b3c5";    //  output should be aabbbccccc
+
         for(int i = 0; i<s.length();i++)
         {
             if(Character.isDigit(s.charAt(i)))

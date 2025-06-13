@@ -4,6 +4,6 @@ public class Apple
 {
     public  void eat (int a)
     {
-        System.out.println("Eat Apple");
+        System.out.println("Eat " + a +" Apple");
     }
 }
